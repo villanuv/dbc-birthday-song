@@ -84,6 +84,7 @@ header div {
   width: 39px;
   height: 90px;
   background: url(images/lines.jpg) repeat-x;
+  margin-right: 3px;
 }
 
 .clear {
