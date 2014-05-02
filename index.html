@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="js/jquery-2.1.0.min.js" type="text/javascript"></script>
+  <script src="js/typed.js" type="text/javascript"></script>
+  <script src="js/application.js" type="text/javascript"></script>
+  <script>
+    $(function(){
+        $(".prompt").typed({
+          strings: [
+            HappyBirthday(toYou()),
+            HappyBirthday(toYou()),
+            HappyBirthday(Dear(celebrant())),
+            HappyBirthday(toYou())
+          ],
+          typeSpeed: 50
+        });
+    });
+  </script>
+  <link href="application.css" rel="stylesheet" type="text/css">
+
+  <title>Happy Birthday Song</title>
+</head>
+<body>
+  <div id="container">
+    <header>
+      <div id="left">&nbsp;</div>
+      <div id="middle"><a href="http://www.devbootcamp.com" target="_blank"><img src="images/title.jpg"></a></div>
+      <div id="right">&nbsp;</div>
+    </header>
+    <div id="main">
+      <div id="nav"></div>
+      <div id="tab">
+        <div id="left_top"><a href="http://www.devbootcamp.com" target="_blank"><img src="images/tab.jpg"></a></div>
+        <div id="right_top"></div>
+      </div>
+      <div id="content">
+        <div id="lines"></div>
+        <span class="prompt"></span>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <footer>
+      <div id="left_bottom"></div>
+      <div id="right_bottom"></div>
+      <div class="clear"></div>
+    </footer>
+  </div>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50584714-1', 'villanuv.com');
+    ga('send', 'pageview');
+  </script>
+
+</body>
+</html>

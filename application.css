@@ -1,0 +1,147 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: #272822;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+#container {
+  float: left;
+}
+
+header {
+  float: left;
+  width: 100%;
+  min-width: 1030px;
+  background: url(images/top.jpg) repeat-x;
+}
+
+header div {
+  float: left;
+  height: 20px;
+  border-bottom: 1px solid #676767;
+}
+
+#left {
+  width: 65px;
+  background: url(images/close.jpg) no-repeat;
+}
+
+#middle {
+  text-align: center;
+  width: 82%;
+  margin: 0 auto;
+}
+
+#right {
+  float: right;
+  width: 120px;
+  background: url(images/unregistered.jpg) no-repeat;
+}
+
+#main {
+  float: left;
+  background: url(images/tab_back.jpg) repeat-x;
+  min-width: 840px;
+}
+
+#nav {
+  float: left;
+  background: url(images/left.jpg) no-repeat;   
+  width: 189px;
+  height: 1000px;
+  background-color: #e6e6e6;
+  border-right: 1px solid #676767;
+}
+
+#tab {
+  float: left;
+  height: 36px;
+}
+
+#left_top {
+  float: left;
+  width: 830px;
+  height: 36px;
+}
+
+#right_top {
+  float: right;
+  width: 10px;
+  height: 36px;      
+  background: url(images/tab_back.jpg) repeat-x;
+}
+
+#content {
+  float: left;
+  width: 790px !important;
+}
+
+#lines {
+  float: left;
+  width: 39px;
+  height: 90px;
+  background: url(images/lines.jpg) repeat-x;
+}
+
+.clear {
+  clear: both;
+}
+
+strong {
+  font-size: 32px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  float: left;
+  height: 19px;
+  background-color: #595959;
+  border-top: 1px solid #7d7d7d;
+  border-bottom: 1px solid #7d7d7d;
+}
+
+footer div {
+  height: 19px;
+}
+
+#left_bottom {
+  float: left;
+  width: 100px;
+  background: url(images/footer_left.jpg) no-repeat;
+}
+
+#right_bottom {
+  float: right;
+  width: 200px;
+  background: url(images/footer_right.jpg) no-repeat;
+}
+
+#typed-cursor{
+  opacity: 1;
+  font-weight: 100;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  -ms-animation: blink 0.7s infinite;
+  -o-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
